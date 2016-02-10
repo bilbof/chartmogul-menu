@@ -12,13 +12,13 @@ Get your ChartMogul metrics in your Mac OS X Menu Bar.
 	
 	a) [Download BitBar](https://github.com/matryer/bitbar/releases/download/v1.5.0-beta2/BitBar.v1.5-beta2.zip)
 	
-	b) [Download ChartMogul plugin]()
+	b) [Download ChartMogul plugin](https://github.com/bilbof/chartmogul-menu/archive/master.zip)
 
 2. Add ChartMogul API keys
 
 	You can find your ChartMogul API Token and Secret Key at https://app.chartmogul.com/#admin/api (admin permissions required).
 
-	a) Open the cm.py file in the ChartMogul plugin folder with a text editor (e.g. TextEdit, Sublime Text 2, Atom).
+	a) Open the chartmogul-menu Zip file downloaded in step 1b, open the cm.py file in the chartmogul-menu folder with a text editor (e.g. TextEdit, Sublime Text 2, Atom).
 
 	b) Add your ChartMogul API Token and Secret Key to lines 6 & 7 of cm.py.
 
