@@ -4,8 +4,14 @@ import base64
 import json
 import datetime
 
+
+## Edit lines 11 & 12
+## Find your ChartMogul API Token and Secret key at https://app.chartmogul.com/#admin/api
+###################################
 username="CHARTMOGUL_API_TOKEN"
 password="CHARTMOGUL_SECRET_KEY"
+###################################
+
 
 today=datetime.date.today().strftime("%Y-%m-%d")
 yesterday=datetime.date.fromordinal(datetime.date.today().toordinal()-1).strftime("%Y-%m-%d")
@@ -19,9 +25,7 @@ request = urllib2.Request(url, headers=headers)
 
 contents = urllib2.urlopen(request).read()
 
-jsonResponse=contents
-
-jsonData = json.loads(jsonResponse)
+jsonData = json.loads(contents)
 
 for item in jsonData["entries"]:
     mrr = item.get("mrr")

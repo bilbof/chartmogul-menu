@@ -20,7 +20,7 @@ Get your ChartMogul metrics in your Mac OS X Menu Bar.
 
 	a) Open the chartmogul-menu Zip file downloaded in step 1b, open the cm.py file in the chartmogul-menu folder with a text editor (e.g. TextEdit, Sublime Text 2, Atom).
 
-	b) Add your ChartMogul API Token and Secret Key to lines 6 & 7 of cm.py.
+	b) Add your ChartMogul API Token and Secret Key to lines 11 & 12 of cm.py.
 
 3. Run the app
 
